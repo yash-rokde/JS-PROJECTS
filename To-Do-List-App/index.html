@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="parent bg-stone-950 w-screen h-screen">
+      <div class="container bg-white rounded-md p-4">
+        <!-- Header contains heading and icon-->
+        <div class="header">
+          <img src="/To-Do-List-App/assets/sticky-note.png" class="w-14 h-14" />
+          <h2 class="font-bold text-2xl">To-Do List</h2>
+        </div>
+
+        <!-- Contains Input Box and button for adding any new Task   -->
+        <div class="input-data">
+          <div
+            class="flex items-center rounded-md bg-white pl-3 outline-1 -outline-offset-1 outline-gray-300 focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-indigo-600 flex-grow-[7]"
+          >
+            <input
+              type="text"
+              name="task-input"
+              id="task-input"
+              class="block min-w-0 grow py-1.5 pr-3 pl-1 text-base text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm/6"
+              placeholder="Add a task"
+            />
+          </div>
+
+          <button
+            class="bg-orange-400 px-4 rounded-md flex-grow-[3]"
+            id="add-btn"
+          >
+            ADD
+          </button>
+        </div>
+
+        <!--   Task List  -->
+
+        <ul id="task-container"></ul>
+      </div>
+    </div>
+  </body>
+
+  <script src="app.js"></script>
+</html>

@@ -1,0 +1,66 @@
+.parent{
+    padding: 5%;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+   
+    
+}
+.header{
+   display:flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 10px;
+   padding-left: 3%;
+}
+.input-data{
+    display: flex;
+    padding-top: 2%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+#task{
+    flex-grow: 8;
+}
+#add-btn{
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+}
+#add-btn:hover{
+    background-color: rgb(255, 117, 4);
+}
+.task-list{
+    display: flex;
+    padding-top: 2%;
+    margin: 0 auto;
+    max-width: 1000px;
+    
+}
+#task-container{
+    list-style-type: none;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.task{
+    display: flex;
+    padding: 1%;
+    background-color: aliceblue;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.task-btns{
+    
+    padding-right: 2%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+
+}
