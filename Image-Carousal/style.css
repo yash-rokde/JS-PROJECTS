@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+}
+body{
+    padding: 2%;
+}
+.images-container{
+    display: flex;
+    width: 100%;
+    background-color: aliceblue;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-container{
+    border:none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 400px;
+    margin: 5%;
+    
+}
+.btn{
+    padding: 10px;
+    background-color: rgb(87, 87, 223);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    min-width: 70px;
+}
+img{
+    width: 100%;
+}
