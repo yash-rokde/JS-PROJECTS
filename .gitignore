@@ -1,2 +1,2 @@
 # Ignore all assets files
-assets/
+**/assets
