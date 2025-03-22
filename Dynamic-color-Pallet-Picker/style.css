@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  #btn{
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .palette{
+    display: flex;
+    gap:10px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+
+  }
+  .Box {
+
+    width:30px;
+    height:30px;
+    border: 1px solid black;
+    cursor: pointer;
+
+  }

@@ -55,6 +55,17 @@
     flex-wrap: wrap;
 
 }
+.completed-task{
+    display: flex;
+    padding: 1%;
+    background-color:#5fca93;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
 .task-btns{
     
     padding-right: 2%;
