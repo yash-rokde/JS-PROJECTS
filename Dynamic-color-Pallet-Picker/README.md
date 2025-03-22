@@ -24,3 +24,6 @@ This is a basic JavaScript project that allows users to dynamically generate a c
 3. Click on any color box to view its hex color code.
 
 This project is a simple and interactive way to explore color palettes and learn about hex color codes.
+
+![image](https://github.com/user-attachments/assets/85bf7800-2222-435a-bead-484a93663340)
+
